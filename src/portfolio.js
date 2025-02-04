@@ -25,8 +25,7 @@ const greeting = {
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and APIs with Scala / JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
   ),
-  resumeLink:
-    "", // Set to empty to hide the button
+  resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -114,7 +113,7 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
   schools: [
     {
       schoolName: "Harvard University",
@@ -228,7 +227,7 @@ const bigProjects = {
           url: "https://vng.com.vn/"
         }
       ]
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -244,8 +243,7 @@ const achievementSection = {
   achievementsCards: [
     {
       title: "Google Code-In Finalist",
-      subtitle:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       image: require("./assets/images/codeInLogo.webp"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
